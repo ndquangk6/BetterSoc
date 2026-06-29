@@ -9,7 +9,7 @@ app.use(express.json());
 
 const API_KEY = process.env.API_KEY;
 // ⚠️ QUAN TRỌNG: Thay BASE_URL bằng endpoint thực tế của Bzzoiro
-const BASE_URL = 'https://api.bzzoiro.com/v1'; // Giả định
+const BASE_URL = 'https://sports.bzzoiro.com'; // Giả định
 
 // Proxy chung
 app.get('/api/:endpoint', async (req, res) => {
